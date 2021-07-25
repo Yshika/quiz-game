@@ -10,13 +10,12 @@
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
-}
-.left{
+  .left{
   // margin-top:8rem ;
-color: aliceblue;
-font-weight: 600;
-font-size: x-large;
-line-height: 2.35rem;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: x-large;
+  line-height: 2.35rem;
 }
 .right{
   .img-container{
@@ -28,6 +27,8 @@ line-height: 2.35rem;
     }
   }
 }
+}
+
 .btn{
   margin-top:0.5rem;
   background: none;
@@ -35,4 +36,8 @@ line-height: 2.35rem;
   border-radius: 12px;
   padding: 0.7rem 1.5rem;
   border: 2px solid white;
+}
+
+.main{
+
 }

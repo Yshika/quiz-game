@@ -23,6 +23,15 @@ const Main = () => {
                     </div>
                 </section>
             </div>
+            <div className="main">
+                <section>
+                    <h2>
+                        Choose your Topic!
+                    </h2>
+                    <h3>We will help you test your knowledge!</h3>
+                </section>
+
+            </div>
         </div>
     )
 }
