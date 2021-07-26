@@ -1,5 +1,6 @@
 import './App.scss';
 import Main from './containers/Main';
+import Quiz from './containers/Quiz'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Main />
+      {/* <Main /> */}
+      <Quiz />
     </div>
   );
 }

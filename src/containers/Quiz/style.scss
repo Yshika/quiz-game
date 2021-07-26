@@ -1,0 +1,32 @@
+.quiz {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  position: relative;
+  &-card {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    min-height: 20rem;
+    min-width: 25rem;
+    border-radius: 25px;
+    position: absolute;
+    transform: rotate(5deg);
+    z-index: 9;
+    box-shadow: inset 0px 0px 20px 1px #000;
+  }
+  .quiz-backdrop {
+    min-height: 22rem;
+    min-width: 25rem;
+    background-color: darkgray;
+    // transform: rotate(10deg) scale(1,1);
+    transform: rotate(66deg) scale(1, 1);
+    // transform: translateY(0) rotate(4deg) translateX(25px) scale(1,1);
+    border-radius: 25px;
+    box-shadow: 0 0 40px #000;
+  }
+  .category-form {
+    padding: 2rem;
+    text-align: center;
+    transform: rotate(-5deg);
+  }
+}
