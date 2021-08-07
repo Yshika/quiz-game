@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.scss';
 import nerd from "../../assets/images/nerd.png"
+import { Link } from 'react-router-dom';
+import { RouteName } from '../../routes/_base';
 const Main = () => {
     return (
         <div className='main-page'>
@@ -15,7 +17,9 @@ const Main = () => {
                         <br />
                         & Choose your Poison!
                     </p>
-                    <button className="btn">Take a Quiz</button>
+                    <Link to={RouteName.Quiz} className="route">
+                        <button className="btn">Take a Quiz</button>
+                    </Link>
                 </section>
                 <section className="right">
                     <div className="img-container">
@@ -23,7 +27,7 @@ const Main = () => {
                     </div>
                 </section>
             </div>
-            <div className="main">
+            {/* <div className="main">
                 <section>
                     <h2>
                         Choose your Topic!
@@ -31,7 +35,7 @@ const Main = () => {
                     <h3>We will help you test your knowledge!</h3>
                 </section>
 
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import './App.scss';
-import Main from './containers/Main';
-import Quiz from './containers/Quiz'
+// import Main from './containers/Main';
+// import Quiz from './containers/Quiz'
+import Routes from './routes';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         </a>
       </header> */}
       {/* <Main /> */}
-      <Quiz />
+      <Routes />
+      {/* <Quiz /> */}
     </div>
   );
 }

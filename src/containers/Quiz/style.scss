@@ -1,8 +1,9 @@
 .quiz {
   display: grid;
   place-items: center;
-  height: 100%;
+  height: 100vh;
   position: relative;
+  color: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
   &-card {
     background-color: white;
     padding: 1rem 1.5rem;
@@ -10,7 +11,7 @@
     min-width: 25rem;
     border-radius: 25px;
     position: absolute;
-    transform: rotate(5deg);
+    transform: rotate(2deg);
     z-index: 9;
     box-shadow: inset 0px 0px 20px 1px #000;
   }
@@ -27,6 +28,40 @@
   .category-form {
     padding: 2rem;
     text-align: center;
-    transform: rotate(-5deg);
+    transform: rotate(-2deg);
   }
+  article{
+    display: grid;
+    margin: 0rem 0rem 1rem 0rem;
+
+    .quiz-label{
+      margin: 0 0rem 1rem 0rem;
+      font-weight: 600;
+      font-family: cursive;
+    }
+    .quiz-select{
+      text-transform: uppercase;
+      border-radius: 10px;
+    }
+    .quiz-option{
+      text-transform: uppercase;
+      
+    }
+  }
+  
+  .quiz-btn{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%);
+    color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 5px 4px 2px 0px rgba(2,0,36,0.8);
+    padding: 0.6rem 1.6rem;
+  }
+  
+  .quiz-btn:active{
+    background: white;
+    color: rgba(2,0,36,0.8);
+    font-weight: bold;
+  }
+  
 }
