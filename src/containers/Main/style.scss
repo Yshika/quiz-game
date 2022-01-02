@@ -40,3 +40,15 @@
 .route{
   position: relative;
 }
+
+.footer{
+  color: white;
+  font-style: oblique;
+  font-size: large;
+  align-self: self-end;
+  padding-bottom: 1rem;
+  .link-mail{
+    // text-decoration: none;
+    color: white;
+  }
+}

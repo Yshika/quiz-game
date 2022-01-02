@@ -36,6 +36,11 @@ const Main = () => {
                 </section>
 
             </div> */}
+            <footer className="footer">
+                <address>
+                    In case of any queries, please <a className="link-mail" href='mailto:yshika0581@gmail.com'>contact me</a>.
+                </address>
+            </footer>
         </div>
     )
 }
